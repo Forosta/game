@@ -163,7 +163,7 @@ function startGame() {
 				}
 				// console.log(check, 'chek');
 			});
-			let timer = 10;
+			let timer = 60;
 			const set = setInterval(() => {
 				timer -= 1;
 				outTimer.textContent = timer;
